@@ -12,7 +12,7 @@ fase vapor (se as duas coexistirem).
 - 1.0.
 
 * Data:
-- 2013/2 - segundo semestre.
+- 2016/2 - segundo semestre.
   
 * Autor de Contato:
 - André Duarte Bueno <andreduartebueno@gmail.com>

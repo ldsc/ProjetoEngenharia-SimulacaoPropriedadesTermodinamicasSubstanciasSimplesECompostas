@@ -1,32 +1,33 @@
 
 # Table of Contents
 
-1.  [Nome do Software (ou Biblioteca):](#org073755e)
-2.  [Resumo e/ou informação extra:](#orge635193)
-3.  [Versão:](#org8c2f0a5)
-4.  [Data:](#orgf3c4516)
-5.  [Autor de Contato:](#orgabf2740)
-6.  [Lista dos Autores:](#org0e8fa03)
-7.  [Áreas de pesquisa vinculadas:](#org86786d2)
-8.  [Vinculo com:](#org61e6b63)
-9.  [Paradigmas:](#orge63788a)
-10. [Tipo de Interface:](#org7eb34cf)
-11. [Plataformas Suportadas:](#org5d57af8)
-12. [Linguagens Utilizadas:](#org50113c5)
-13. [Bibliotecas Utilizadas (dependências):](#org02464bc)
-14. [Softwares utilizados (dependências)](#org884517f)
-15. [Tipo de Licença:](#org7c8cf11)
-16. [Links:](#org2695cd0)
+1.  [Nome do Software (ou Biblioteca):](#org21d9dfe)
+2.  [Resumo e/ou informação extra:](#org0655576)
+3.  [Versão:](#org50fed53)
+4.  [Data:](#orgaa1ab47)
+5.  [Autor de Contato:](#org1121019)
+6.  [Lista dos Autores:](#org6b283e7)
+7.  [Áreas de pesquisa vinculadas:](#org26d93ce)
+8.  [Vinculo com:](#org9022cbc)
+9.  [Paradigmas:](#orgabb026f)
+10. [Tipo de Interface:](#orgd448bfe)
+11. [Plataformas Suportadas:](#org62e995e)
+12. [Linguagens Utilizadas:](#org7a58057)
+13. [Bibliotecas Utilizadas (dependências):](#orgba3f6e3)
+14. [Softwares utilizados (dependências)](#org05f615c)
+15. [Tipo de Licença:](#org680b984)
+16. [Links:](#org5a9b630)
 
 
-<a id="org073755e"></a>
+<a id="org21d9dfe"></a>
 
 # Nome do Software (ou Biblioteca):
 
 -   SIMULAÇÃO DE PROPRIEDADES TERMODINÂMICAS DE SUBSTÂNCIAS SIMPLES E COMPOSTAS
+-   ProjetoEngenharia-SimulacaoPropriedadesTermodinamicasSubstanciasSimplesECompostas
 
 
-<a id="orge635193"></a>
+<a id="org0655576"></a>
 
 # Resumo e/ou informação extra:
 
@@ -37,28 +38,28 @@ volume molar, e o fator de compressibilidade, tanto da fase líquida, quanto da
 fase vapor (se as duas coexistirem).
 
 
-<a id="org8c2f0a5"></a>
+<a id="org50fed53"></a>
 
 # Versão:
 
 -   1.0.
 
 
-<a id="orgf3c4516"></a>
+<a id="orgaa1ab47"></a>
 
 # Data:
 
--   2013/2 - segundo semestre.
+-   2016/2 - segundo semestre.
 
 
-<a id="orgabf2740"></a>
+<a id="org1121019"></a>
 
 # Autor de Contato:
 
 -   André Duarte Bueno <andreduartebueno@gmail.com>
 
 
-<a id="org0e8fa03"></a>
+<a id="org6b283e7"></a>
 
 # Lista dos Autores:
 
@@ -66,7 +67,7 @@ fase vapor (se as duas coexistirem).
 -   André Duarte Bueno <andreduartebueno@gmail.com>
 
 
-<a id="org86786d2"></a>
+<a id="org26d93ce"></a>
 
 # Áreas de pesquisa vinculadas:
 
@@ -74,56 +75,56 @@ fase vapor (se as duas coexistirem).
 -   Termodinâmica
 
 
-<a id="org61e6b63"></a>
+<a id="org9022cbc"></a>
 
 # Vinculo com:
 
 -   Trabalho da disciplina de programação prática.
 
 
-<a id="orge63788a"></a>
+<a id="orgabb026f"></a>
 
 # Paradigmas:
 
 -   POO - Programação Orientada a Objeto (códigos em C++)
 
 
-<a id="org7eb34cf"></a>
+<a id="orgd448bfe"></a>
 
 # Tipo de Interface:
 
 -   Terminal e gráfica (gnuplot).
 
 
-<a id="org5d57af8"></a>
+<a id="org62e995e"></a>
 
 # Plataformas Suportadas:
 
 -   Windows e GNU/Linux e Mac OS X (não testada).
 
 
-<a id="org50113c5"></a>
+<a id="org7a58057"></a>
 
 # Linguagens Utilizadas:
 
 -   C++ 11.
 
 
-<a id="org02464bc"></a>
+<a id="orgba3f6e3"></a>
 
 # Bibliotecas Utilizadas (dependências):
 
 -   CGnuplot - <https://github.com/ldsc/CGnuplot>
 
 
-<a id="org884517f"></a>
+<a id="org05f615c"></a>
 
 # Softwares utilizados (dependências)
 
 -   gnuplot <http://www.gnuplot.info/>
 
 
-<a id="org7c8cf11"></a>
+<a id="org680b984"></a>
 
 # Tipo de Licença:
 
@@ -136,7 +137,7 @@ fase vapor (se as duas coexistirem).
 -   Na descrição do projeto informe que trata-se de uma nova versão, que tem como base a versão anterior e DESTAQUE COM CLAREZA E OBJETIVIDADE QUAIS AS NOVIDADES DA NOVA VERSÃO.
 
 
-<a id="org2695cd0"></a>
+<a id="org5a9b630"></a>
 
 # Links:
 
