@@ -1,0 +1,12 @@
+Simulacao de metano(fracao molar = 0.5 )_isopentano(fracao molar = 0.5 )_500K_10bar_SRK.txt
+So existe uma fase.
+Densidade: 247.902 mol/m^3
+Volume especifico: 0.00403385 m^3/mol
+Volume molar: 4.03385 L/mol
+Fator de compressibilidade: 0.970375
+Componente A: metano
+Coeficiente de fugacidade: 1.00205
+Fugacidde em 10 bar: 5.01027 bar
+Componente B: isopentano
+Coeficiente de fugacidade: 1.00205
+Fugacidade em 10 bar: 5.01027 bar

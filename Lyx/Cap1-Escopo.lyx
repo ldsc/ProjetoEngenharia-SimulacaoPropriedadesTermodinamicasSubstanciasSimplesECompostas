@@ -1,0 +1,462 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+%\usepackage {helvet}
+%\renewcommand {\familydefault}{\sfdefault}
+
+% Para uso de listagens de código
+\usepackage{color}
+\definecolor{azulclaro}{rgb}{0.6,1,1}%   rgb color model
+% Informa que vai usar o pacote listings, 
+% disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
+\usepackage{listings}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style apalike
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Capa
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE
+\begin_inset Newline newline
+\end_inset
+
+LABORATÓRIO DE ENGENHARIA E EXPLORAÇÃO DE PETRÓLEO
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+O título deve ser o mais claro possível, não deixando dúvidas sobre o assunto
+ em questão.
+ O uso de vírgula ou dois pontos pode deixar o título com mais impacto.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+PROJETO ENGENHARIA
+\begin_inset Newline newline
+\end_inset
+
+DESENVOLVIMENTO DO SOFTWARE 
+\begin_inset Newline newline
+\end_inset
+
+SIMULAÇÃO DE PROPRIEDADES TERMODINÂMICAS DE SUBSTÂNCIAS SIMPLES E COMPOSTAS
+\begin_inset Newline newline
+\end_inset
+
+TRABALHO DA DISCIPLINA PROGRAMAÇÃO PRÁTICA
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Versão 1:
+\begin_inset Newline newline
+\end_inset
+
+Daniel Guimarães Alvarenga
+\begin_inset Newline newline
+\end_inset
+
+Prof.
+ André Duarte Bueno
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+o valor de 4cm pode ser alterado, para que a distribuição fique mais uniforme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+MACAÉ - RJ
+\begin_inset Newline newline
+\end_inset
+
+Março - 2017
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introdução
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Introdução"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Introdução}
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lfoot{Daniel Guimarães Alvarenga} 
+\backslash
+rfoot{
+\backslash
+today}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Substitua "SeuNomeAqui" por seu nome e sobrenome
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Jamais retire o 
+\backslash
+today ele vai colocar data no material impresso
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No presente projeto de engenharia desenvolve-se o 
+\shape italic
+software de simulação de propriedades termodinâmicas de substâncias simples
+ e compostas
+\shape default
+, um software aplicado a engenharia de petróleo e que utiliza o paradigma
+ da orientação a objetos.
+\end_layout
+
+\begin_layout Standard
+Este software tem como finalidade obter propriedades termodinâmicas de substânci
+as simples ou misturas de duas substâncias.
+ Para isso, será necessário um banco de dados para armazenar propriedades
+ das principais substâncias relacionadas à produção de petróleo, um sistema
+ que permita ao usuário escolher entre usar a equação de estado de Peng-Robinson
+ ou de Soave-Redlich-Kwong, um sistema de resolução de equação de terceiro
+ grau de modo exato (para que não haja erros em métodos numéricos que não
+ convergem em determinada situação), e, enfim, o cálculo das propriedades
+ termodinâmicas para cada fase e cada substância.
+ Tais propriedades como fugacidade, fator de compressibilidade, densidade,
+ volume específico e volume molar, serão mostrados ao usuário juntamente
+ com um gráfico do fator de compressibilidade e podem ser salvos em disco.
+ 
+\end_layout
+
+\begin_layout Section
+Escopo do problema
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Escopo-do-Problema"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Na composição do petróleo, além de hidrocarbonetos, são encontradas substâncias
+ como nitrogênio, oxigênio, enxofre, e até metais.
+ Estas substâncias podem estar presentes tanto no estado líquido, quanto
+ no estado gasoso.
+\end_layout
+
+\begin_layout Standard
+Durante a etapa de produção do petróleo, é importante monitorar o comportamento
+ das substâncias que estão sendo produzidas.
+ Isto porque um aumento muito grande de pressão pode fazer com que os hidrocarbo
+netos fluam de maneira descontrolada e haja derramamento na superfície,
+ o que é indesejável por todos os danos pessoais, ambientais e materiais
+ que isso causa.
+ Além disso, se a produção for parada por um certo tempo, sob certas condições
+ de temperatura e pressão, há o risco de formação de hidratos nos tubos,
+ que os entopem e comprometem a produção.
+\end_layout
+
+\begin_layout Standard
+A necessidade de monitoramento da produção é evidente.
+ Prever como será o comportamento dessas substâncias antes que elas causem
+ algum tipo de problema, é uma medida que traz certo controle aos engenheiros
+ que gerenciam a produção.
+ Este projeto de engenharia busca indícios que ajudem os engenheiros a prever
+ eventuais problemas que possam ocorrer durante a etapa de produção do petróleo,
+ levando em conta as propriedades termodinâmicas obtidas por meio de simulações
+ das condições de temperatura e pressão.
+\end_layout
+
+\begin_layout Section
+Objetivos
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Objetivos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os objetivos deste projeto de engenharia são:
+\end_layout
+
+\begin_layout Itemize
+Objetivo geral:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Obter propriedades termodinâmicas de substâncias simples e misturas de substânci
+as.
+ Estas propriedades incluem fugacidade, densidade, volume específico, volume
+ molar, e o fator de compressibilidade, tanto da fase líquida, quanto da
+ fase vapor (se as duas coexistirem).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Objetivos específicos:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Permitir que o usuário selecione qual equação de estado deseja utilizar
+ para a base de cálculos: Peng-Robinson ou Soave-Redlich-Kwong.
+\end_layout
+
+\begin_layout Itemize
+Permitir que o usuário selecione as condições de temperatura e pressão que
+ deseja simular, assim como a(s) substância(s) envolvida(s).
+\end_layout
+
+\begin_layout Itemize
+Gerar resultados (valor das propriedades e gráfico) na tela e salvá-los
+ em disco.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

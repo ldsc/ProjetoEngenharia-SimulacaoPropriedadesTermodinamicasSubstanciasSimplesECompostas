@@ -1,0 +1,12 @@
+Simulacao de nitrogenio(fracao molar = 0.8 )_h2s(fracao molar = 0.2 )_100K_40bar_PR.txt
+So existe uma fase.
+Densidade: 30665 mol/m^3
+Volume especifico: 3.26105e-005 m^3/mol
+Volume molar: 0.0326105 L/mol
+Fator de compressibilidade: 0.156894
+Componente A: nitrogenio
+Coeficiente de fugacidade: 0.542439
+Fugacidde em 40 bar: 17.3581 bar
+Componente B: h2s
+Coeficiente de fugacidade: 0.542439
+Fugacidade em 40 bar: 4.33951 bar

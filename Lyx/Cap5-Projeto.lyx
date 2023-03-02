@@ -1,0 +1,707 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass extbook
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+%\usepackage {helvet}
+%\renewcommand {\familydefault}{\sfdefault}
+
+% Para uso de listagens de código
+\usepackage{color}
+\definecolor{azulclaro}{rgb}{0.6,1,1}%   rgb color model
+% Informa que vai usar o pacote listings, 
+% disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
+\usepackage{listings}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Projeto 
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Projeto-do-Sistema"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+deixar apenas o que for pertinente ao módulo experimental a ser desenvolvido.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter - Projeto} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Neste capítulo do projeto de engenharia veremos questões associadas ao projeto
+ do sistema, incluindo protocolos, recursos, plataformas suportadas, implicações
+ nos diagramas feitos anteriormente, diagramas de componentes e implantação.
+ Na segunda parte revisamos os diagramas levando em conta as decisões do
+ projeto do sistema.
+\end_layout
+
+\begin_layout Section
+Projeto do sistema
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Projeto do sistema
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Projeto-do-sistema"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Depois da análise orientada a objeto desenvolve-se o projeto do sistema,
+ qual envolve etapas como a definição dos protocolos, da interface API,
+ o uso de recursos, a subdivisão do sistema em subsistemas, a alocação dos
+ subsistemas ao hardware e a seleção das estruturas de controle, a seleção
+ das plataformas do sistema, das bibliotecas externas, dos padrões de projeto,
+ além da tomada de decisões conceituais e políticas que formam a infraestrutura
+ do projeto.
+\end_layout
+
+\begin_layout Standard
+Deve-se definir padrões de documentação, padrões para o nome das classes,
+ padrões de retorno e de parâmetros em métodos, características da interface
+ do usuário e características de desempenho.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Protocolos
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Protocolos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+O 
+\shape italic
+software
+\shape default
+ utilizará como componente externo, o Gnuplot.
+ Este tem como finalidade plotar o gráfico das equações resolvidas.
+\end_layout
+
+\begin_layout Itemize
+O 
+\shape italic
+software
+\shape default
+ poderá receber os dados somente via teclado.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Recursos
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Recursos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+O 
+\shape italic
+software
+\shape default
+ requer a utilização de processador, memória
+\shape italic
+ RAM, HD
+\shape default
+, teclado e tela.
+\end_layout
+
+\begin_layout Itemize
+Requer que o 
+\shape italic
+software 
+\shape default
+externo Gnuplot esteja instalado.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Controle
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Controle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Não requer muita memória, visto que o programa e seus componentes contém
+ dados que ocupam pouco espaço na memória.
+\end_layout
+
+\begin_layout Itemize
+Não requer processamento paralelo, visto que o programa e seus componentes
+ executam cálculos que requerem pouco poder de processamento.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Plataformas
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Plataformas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+O 
+\shape italic
+software
+\shape default
+ irá operar nos sistemas operacionais Windows e GNU/Linux, sendo desenvolvido
+ e testado em ambos os sistemas.
+\end_layout
+
+\begin_layout Itemize
+O ambiente de desenvolvimento será o 
+\family typewriter
+Dev C++
+\family default
+ (Windows) e 
+\family typewriter
+Kate
+\family default
+ (Linux).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Bibliotecas
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Será utilizada a biblioteca padrão da linguagem C++, incluindo 
+\shape italic
+cmath
+\shape default
+, 
+\shape italic
+vector
+\shape default
+, 
+\shape italic
+string
+\shape default
+, 
+\shape italic
+iostream
+\shape default
+, 
+\shape italic
+fstream, locale.h, algorithm, sstream.
+\end_layout
+
+\begin_layout Itemize
+Iremos utilizar a classe CGnuplot, que fornece acesso ao Gnuplot.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Projeto orientado a objeto – POO
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+POO
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Projeto orientado a objeto
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Projeto-orientado-a-objeto"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O projeto orientado a objeto é a etapa posterior ao projeto do sistema.
+ Baseia-se na análise, mas considera as decisões do projeto do sistema.
+ Acrescenta a análise desenvolvida e as características da plataforma escolhida
+ (hardware, sistema operacional e linguagem de programação).
+ Passa pelo maior detalhamento do funcionamento do software, acrescentando
+ atributos e métodos que envolvem a solução de problemas específicos não
+ identificados durante a análise.
+\end_layout
+
+\begin_layout Standard
+Envolve a otimização da estrutura de dados e dos algoritmos, a minimização
+ do tempo de execução, de memória e de custos.
+ Existe um desvio de ênfase para os conceitos da plataforma selecionada.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Efeitos do projeto no modelo
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+modelo
+\end_layout
+
+\end_inset
+
+ estrutural
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Efeito-do-projeto-no-modelo-estrutural"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A biblioteca gráfica utilizada será CGnuplot.
+ Ela fornece acesso ao 
+\shape italic
+software
+\shape default
+ externo Gnuplor, utilizado para plotar o gráfico.
+\end_layout
+
+\begin_layout Subsubsection
+Efeitos do projeto nos métodos
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+métodos
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Efeitos do projeto nos métodos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Neste projeto, os métodos de classe exercem a função de armazenar valores
+ nos atributos, calcular ou executar atividades que suas respectivas classes
+ propõem.
+\end_layout
+
+\begin_layout Subsubsection
+Efeitos do projeto nas associações
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Efeitos do projeto nas associações
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Associações
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+As classes CPengRobinson e CSoaveRedlichKwong reunirão as informações contidas
+ em CSubstancia, e utilizarão os métodos contidos em CEquacaoEstadoCubica
+ para calcular parâmetros de uma equação de estado cúbica.
+ As raízes desta equação cúbica serão encontradas por CEquacaoCubica, que
+ retornará os valores para CPengRobinson ou CSoaveRedlichKwong para que
+ possam calcular as propriedades termodinâmicas desejadas.
+ 
+\end_layout
+
+\begin_layout Section
+Diagrama de componentes
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Diagrama de componentes
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Diagrama-de-componentes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O diagrama de componentes mostra a forma como os componentes do software
+ se relacionam, suas dependências.
+ Inclui itens como: componentes, subsistemas, executáveis, nós, associações,
+ dependências, generalizações, restrições e notas.
+ Exemplos de componentes são bibliotecas estáticas, bibliotecas dinâmicas,
+ dlls, componentes Java, executáveis, arquivos de disco, código-fonte.
+ 
+\end_layout
+
+\begin_layout Standard
+Veja na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cap:Diagrama-de-componentes"
+
+\end_inset
+
+ o diagrama de componentes para nosso 
+\shape italic
+software
+\shape default
+.
+ Observe que este inclui muitas dependências, ilustrando as relações entre
+ os arquivos.
+ 
+\end_layout
+
+\begin_layout Standard
+Algumas observações úteis para o diagrama de componentes:
+\end_layout
+
+\begin_layout Itemize
+De posse do diagrama de componentes, temos a lista de todos os arquivos
+ necessários para compilar e rodar o software.
+\end_layout
+
+\begin_layout Itemize
+Observe que um assunto/pacote pode se transformar em uma biblioteca e será
+ incluído no diagrama de componentes.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Na versão final apagar este texto copiado do livro; e colocado aqui para
+ lhe auxiliar; deixar somente o que é pertinente ao trabalho
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways true
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Diagramas/Diagramadecomponentes.jpeg
+	lyxscale 90
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de componentes do software Simulação de Propriedades Termodinâmicas
+ de Substâncias Simples ou Compostas
+\begin_inset CommandInset label
+LatexCommand label
+name "cap:Diagrama-de-componentes"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagrama de implantação
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Diagrama de execução
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Diagrama-de-execução"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O diagrama de implantação é um diagrama de alto nível que inclui relações
+ entre o sistema e o hardware e que se preocupa com os aspectos da arquitetura
+ computacional escolhida.
+ Seu enfoque é o hardware, a configuração dos nós em tempo de execução.
+ 
+\end_layout
+
+\begin_layout Standard
+O diagrama de implantação deve incluir os elementos necessários para que
+ o sistema seja colocado em funcionamento: computador, periféricos, processadore
+s, dispositivos, nós, relacionamentos de dependência, associação, componentes,
+ subsistemas, restrições e notas.
+\end_layout
+
+\begin_layout Standard
+Veja na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cap:Diagrama-de-implantação."
+
+\end_inset
+
+ o diagrama de implantação do programa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Diagramas/Diagramadeimplantacao.jpeg
+	lyxscale 90
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de implantação.
+\begin_inset CommandInset label
+LatexCommand label
+name "cap:Diagrama-de-implantação."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

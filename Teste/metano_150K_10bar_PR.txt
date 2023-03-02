@@ -1,0 +1,18 @@
+Simulacao de metano_150K_10bar_PR.txt
+Molecula: metano
+Temperatura Critica: 190.6 K
+Pressao Critica: 46 bar
+Fator acentrico: 0.008
+As fases liquido e vapor coexistem.
+Fator de compressibilidade (liquido): 0.0331421
+Fator de compressibilidade (vapor): 0.825263
+Coeficiente de fugacidade (liquido): 0.883582
+Coeficiente de fugacidade (vapor): 0.849726
+Fugacidade em 10 bar (liquido): 8.83582 bar
+Fugacidade em 10 bar (vapor): 8.49726 bar
+Densidade (liquido): 24194.6 mol/m^3
+Densidade (vapor): 971.642 mol/m^3
+Volume especifico (liquido): 4.13316e-005 m^3/mol
+Volume especifico (vapor): 0.00102919 m^3/mol
+Volume molar (liquido): 0.0413316 L/mol
+Volume molar (vapor): 1.02919 L/mol

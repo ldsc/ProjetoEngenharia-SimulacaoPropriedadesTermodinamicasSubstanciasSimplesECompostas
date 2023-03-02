@@ -1,0 +1,20 @@
+Simulacao de metano(fracao molar = 0.4 )_etano(fracao molar = 0.6 )_180K_10bar_PR.txt
+As fases liquido e vapor coexistem.
+Densidade (liquido): 20724.3 mol/m^3
+Densidade (vapor): 888.965 mol/m^3
+Volume especifico (liquido): 4.82526e-005 m^3/mol
+Volume especifico (vapor): 0.0011249 m^3/mol
+Volume molar (liquido): 0.0482526 L/mol
+Volume molar (vapor): 1.1249 L/mol
+Fator de compressibilidade (liquido): 0.0322432
+Fator de compressibilidade (vapor): 0.751679
+Componente A: metano
+Coeficiente de fugacidade (liquido): 3.92576
+Fugacidade em 10 bar (liquido): 15.703 bar
+Coeficiente de fugacidade (vapor): 0.964292
+Fugacidade em 10 bar (vapor): 3.85717 bar
+Componente B: etano
+Coeficiente de fugacidade (liquido): 0.541408
+Fugacidde em 10 bar (liquido): 3.24845 bar
+Coeficiente de fugacidade (vapor): 0.791983
+Fugacidade em 10 bar (vapor): 4.7519 bar

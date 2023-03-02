@@ -1,0 +1,12 @@
+Simulacao de isopentano_450K_30bar_PR.txt
+Molecula: isopentano
+Temperatura Critica: 460.4 K
+Pressao Critica: 33.84 bar
+Fator acentrico: 0.227
+So existe uma fase.
+Fator de compressibilidade: 0.176293
+Coeficiente de fugacidade: 0.650982
+Fugacidade em 30 bar: 19.5294 bar
+Densidade: 4548.44 mol/m^3
+Volume especifico: 0.000219856 m^3/mol
+Volume molar: 0.219856 L/mol
